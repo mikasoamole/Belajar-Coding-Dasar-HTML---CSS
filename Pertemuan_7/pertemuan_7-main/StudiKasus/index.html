@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudiKasus</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+
+<h2>Responsive Navigation Bar with Icons</h2>
+<p>Try to resize the browser window to see the responsive effect.</p>
+
+<div class="navbar">
+  <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a> 
+  <a href="#"><i class="fa fa-fw fa-search"></i> Search</a> 
+  <a href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a> 
+  <a href="#"><i class="fa fa-fw fa-user"></i> Login</a>
+</div>
+
+<div class="container" onclick="myFunction(this)">
+  <div class="bar1"></div>
+  <div class="bar2"></div>
+  <div class="bar3"></div>
+</div>
+
+<script>
+function myFunction(x) {
+  x.classList.toggle("change");
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,11 @@
+section{
+    color: blue;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    background-color: black;
+    padding: 22px;
+    border-radius: 40px;
+}

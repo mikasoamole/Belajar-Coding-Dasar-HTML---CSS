@@ -1,0 +1,66 @@
+/* Gaya terinspirasi dari Tailwind CSS */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.bg-blue-500 {
+    background-color: #3b82f6;
+}
+
+.bg-gray-800 {
+    background-color: #1f2937;
+}
+
+.text-white {
+    color: #ffffff;
+}
+
+.p-4 {
+    padding: 1rem;
+}
+
+.text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+}
+
+.text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.space-x-4 > * + * {
+    margin-left: 1rem;
+}
+
+/* 
+    Aturan CSS ini menerapkan dekorasi garis bawah teks pada elemen saat mereka di-hover.
+    Nama kelasnya adalah "hover:underline", yang menggunakan backslash untuk menghindari titik dua.
+    Ketika elemen dengan kelas ini di-hover, properti text-decoration diatur menjadi underline.
+*/
+.hover\:underline:hover {
+    text-decoration: underline;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Gaya tambahan untuk tautan navigasi */
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #4b5563; /* Abu-abu lebih gelap untuk efek hover */
+}
